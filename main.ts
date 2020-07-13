@@ -1,4 +1,10 @@
-
+namespace SpriteKind {
+    export const oven = SpriteKind.create()
+}
+let oven1: Sprite = null
+let oven2: Sprite = null
+let oven3: Sprite = null
+let oven4: Sprite = null
 function placeOven() {
     oven1 = sprites.create(img`
         . . c c c c c c c c c c c c c c
