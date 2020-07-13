@@ -5,7 +5,7 @@ let oven1: Sprite = null
 let oven2: Sprite = null
 let oven3: Sprite = null
 let oven4: Sprite = null
-function placeOven() {
+function placeOven () {
     oven1 = sprites.create(img`
         . . c c c c c c c c c c c c c c
         . . c b d d d d d d d d d d d d
@@ -82,4 +82,10 @@ function placeOven() {
         f f f f f f f f f f f f f f f f
     `, SpriteKind.oven)
     tiles.placeOnTile(oven4, tiles.getTileLocation(17, 1))
+}
+namespace oven {
+    //% block
+    export function Zone1_oven() {
+        placeOven()
+    }
 }
