@@ -85,7 +85,7 @@ let oven2: Sprite = null
 let oven1: Sprite = null
 namespace oven {
     //% block
-    export function Zone2_oven() {
+    export function zone2_oven() {
         placeOven()
     }
 }
