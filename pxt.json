@@ -1,5 +1,5 @@
 {
-    "name": "zone1_oven",
+    "name": "Zone2_oven",
     "dependencies": {
         "device": "*"
     },

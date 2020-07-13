@@ -1,10 +1,6 @@
 namespace SpriteKind {
     export const oven = SpriteKind.create()
 }
-let oven1: Sprite = null
-let oven2: Sprite = null
-let oven3: Sprite = null
-let oven4: Sprite = null
 function placeOven () {
     oven1 = sprites.create(img`
         . . c c c c c c c c c c c c c c
@@ -83,9 +79,13 @@ function placeOven () {
     `, SpriteKind.oven)
     tiles.placeOnTile(oven4, tiles.getTileLocation(17, 1))
 }
+let oven4: Sprite = null
+let oven3: Sprite = null
+let oven2: Sprite = null
+let oven1: Sprite = null
 namespace oven {
     //% block
-    export function Zone1_oven() {
+    export function Zone2_oven() {
         placeOven()
     }
 }
