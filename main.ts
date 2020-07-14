@@ -244,9 +244,11 @@ namespace oven {
     export function zone1_oven() {
         placeOvenZone1()
     }
+    //% block
     export function zone2_oven() {       
         placeOvenZone2()
     }
+    //% block
     export function zone3_oven() {
         placeOvenZone3()
     }
